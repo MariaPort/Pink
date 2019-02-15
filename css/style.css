@@ -70,6 +70,10 @@ input[type=range]::-ms-track {
     border-color: transparent;
     color: transparent;
 }
+
+*:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
 /**/
 
 .button {
